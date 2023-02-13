@@ -30,7 +30,8 @@ header h1 {
 
 /********* MAIN ***********/
 
-#jumbotron {
+#jumbotron,
+#about {
     background-color: var(--odd-section-bg-color);
 }
 
@@ -54,6 +55,14 @@ header h1 {
 #portfolio .star-ctn::before,
 #portfolio .star-ctn::after {
     background-color: #000;
+}
+
+#about .download {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 6px 12px;
 }
 
 
