@@ -2,10 +2,40 @@ body {
     color: var(--text-color)
 }
 
+.hidden,
+.hidden-list {
+    display: none;
+}
+
 ul li {
     list-style-type: none;
 }
 
 h1, h2, h3, h4 {
     margin: 0;
+}
+
+.star-ctn::before,
+.star-ctn::after {
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: #fff;
+    display: inline-block;
+}
+
+#portfolio .star-ctn::before,
+#portfolio .star-ctn::after,
+#contact-me .star-ctn::before,
+#contact-me .star-ctn::after {
+    background-color: #000;
+}
+
+#portfolio,
+#contact-me {
+    color: #000;
+}
+
+.none {
+    display: none;
 }
