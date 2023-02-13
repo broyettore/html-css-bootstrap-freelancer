@@ -28,10 +28,33 @@ header h1 {
     color: lightslategray;
 }
 
-
-
 /********* MAIN ***********/
 
+#jumbotron {
+    background-color: var(--odd-section-bg-color);
+}
+
+#jumbotron img {
+    width: 50%;
+}
+
+.star-ctn::before,
+.star-ctn::after {
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: #fff;
+    display: inline-block;
+}
+
+#portfolio {
+    color: #000;
+}
+
+#portfolio .star-ctn::before,
+#portfolio .star-ctn::after {
+    background-color: #000;
+}
 
 
 /****** FOOTER ***********/
@@ -56,6 +79,10 @@ header h1 {
 
     .hidden-desktop {
         display: none;
+    }
+
+    #jumbotron img {
+        width: 30%;
     }
     
 }

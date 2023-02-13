@@ -1,10 +1,11 @@
 :root {
 
     /* colors  */
-
+    
     --text-color: #fff;
     --header-color: #2c3e50;
     --odd-section-bg-color: #1abc9c;
     --footer-top-bg-color: #3a546d;
     --footer-bot-bg-color: #2c3e50;
+
 }
